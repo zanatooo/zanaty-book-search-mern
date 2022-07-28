@@ -1,8 +1,7 @@
-Your Challenge this week is emblematic of the fact that most modern websites are driven by two things: data and user demands. This shouldn't come as a surprise, as the ability to personalize user data is the cornerstone of real-world web development today. And as user demands evolve, applications need to be more performant.
+The fact that most modern websites are driven by two things: data and user demands. This shouldn't come as a surprise, as the ability to personalize user data is the cornerstone of real-world web development today. And as user demands evolve, applications need to be more performant.
+I took a fully functioning Google Books API search engine built with a RESTful API, and refactored it to be a GraphQL API built with Apollo Server. The app was built using the MERN stack, with a React front end, MongoDB database, and Node.js/Express.js server and API. It's already set up to allow users to save book searches to the back end.
 
-This week, you’ll take a fully functioning Google Books API search engine built with a RESTful API, and refactor it to be a GraphQL API built with Apollo Server. The app was built using the MERN stack, with a React front end, MongoDB database, and Node.js/Express.js server and API. It's already set up to allow users to save book searches to the back end.
-
-To fulfill the Challenge, you’ll need to do the following:
+To fulfill the Challenge, I needed to do the following:
 
 Set up an Apollo Server to use GraphQL queries and mutations to fetch and modify data, replacing the existing RESTful API.
 
@@ -10,14 +9,11 @@ Modify the existing authentication middleware so that it works in the context of
 
 Create an Apollo Provider so that requests can communicate with an Apollo Server.
 
-Deploy the application to Heroku.
+ [Heroku](https://secure-harbor-35968.herokuapp.com/)
 
-IMPORTANT
-Make sure to clone the starter code repository and make your own repository with the starter code. Do not fork the starter code repository!
-
-Before you start, clone the starter code (Links to an external site.).
 
 User Story
+
 AS AN avid reader
 I WANT to search for new books to read
 SO THAT I can keep a list of books to purchase
@@ -51,7 +47,10 @@ WHEN I click on the Remove button on a book
 THEN that book is deleted from my saved books list
 WHEN I click on the Logout button
 THEN I am logged out of the site and presented with a menu with the options Search for Books and Login/Signup and an input field to search for books and a submit button
+
 Mock-Up
+
+
 Let's start by revisiting the web application's appearance and functionality.
 
 As you can see in the following animation, a user can type a search term (in this case, "star wars") in a search box and the results appear:
@@ -67,7 +66,7 @@ A user can view their saved books on a separate page, as shown in the following 
 The Viewing Lernantino's Books page shows the books that the user Lernaninto has saved.
 
 Getting Started
-In order for this application to use a GraphQL API, you’ll need to refactor the API to use GraphQL on the back end and add some functionality to the front end. The following sections contain details about the files you’ll need to modify on the back end and the front end.
+In order for this application to use a GraphQL API, I needed to refactor the API to use GraphQL on the back end and added some functionality to the front end. The following sections contain details about the files I needed to modify on the back end and the front end.
 
 IMPORTANT
 Make sure to study the application before building upon it. Better yet, start by making a copy of it. It's already a working application—you're converting it from RESTful API practices to a GraphQL API.
@@ -181,3 +180,6 @@ SignupForm.js: Replace the addUser() functionality imported from the API file wi
 
 LoginForm.js: Replace the loginUser() functionality imported from the API file with the LOGIN_USER mutation functionality.
 
+Developer
+
+Mohammed Elzanaty
