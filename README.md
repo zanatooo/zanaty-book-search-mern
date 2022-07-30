@@ -49,56 +49,37 @@ WHEN I click on the Logout button
 THEN I am logged out of the site and presented with a menu with the options Search for Books and Login/Signup and an input field to search for books and a submit button
 
 Mock-Up
+<img width="585" alt="Screen Shot 2022-07-30 at 8 24 23 AM" src="https://user-images.githubusercontent.com/67457318/181937449-ce4fd8fd-8a42-4b50-a615-2b57d615a9b4.png">
+
+<img width="1778" alt="Screen Shot 2022-07-30 at 8 20 57 AM" src="https://user-images.githubusercontent.com/67457318/181937410-57bdaf9e-d7a7-4173-ac10-a93320b7aa1e.png">
+<img width="1760" alt="Screen Shot 2022-07-30 at 8 21 52 AM" src="https://user-images.githubusercontent.com/67457318/181937416-d85413b8-effc-4a98-8cf2-56d60e3b353e.png">
+<img width="1750" alt="Screen Shot 2022-07-30 at 8 22 15 AM" src="https://user-images.githubusercontent.com/67457318/181937419-bd7ad027-4476-4acc-97df-9e95dc447be0.png">
+
+<img width="1792" alt="Screen Shot 2022-07-30 at 8 16 39 AM" src="https://user-images.githubusercontent.com/67457318/181937437-156c9e6b-15b0-4854-beb4-6aea1411de52.png">
+<img width="913" alt="Screen Shot 2022-07-30 at 8 17 28 AM" src="https://user-images.githubusercontent.com/67457318/181937445-faf69844-3ceb-41e3-bff9-356ac6c1ac08.png">
+
+<img width="1181" alt="Screen Shot 2022-07-30 at 8 23 12 AM" src="https://user-images.githubusercontent.com/67457318/181937469-70fad8ef-ed86-447e-b1cb-0c9eef63f32a.png">
 
 
-Let's start by revisiting the web application's appearance and functionality.
-
-As you can see in the following animation, a user can type a search term (in this case, "star wars") in a search box and the results appear:
-
-Animation shows "star wars" typed into a search box and books about Star Wars appearing as results.
-
-The user can save books by clicking "Save This Book!" under each search result, as shown in the following animation:
-
-Animation shows user clicking "Save This Book!" button to save books that appear in search results. The button label changes to "Book Already Saved" after it is clicked and the book is saved.
-
-A user can view their saved books on a separate page, as shown in the following animation:
-
-The Viewing Lernantino's Books page shows the books that the user Lernaninto has saved.
-
-Getting Started
 In order for this application to use a GraphQL API, I needed to refactor the API to use GraphQL on the back end and added some functionality to the front end. The following sections contain details about the files I needed to modify on the back end and the front end.
 
 IMPORTANT
 Make sure to study the application before building upon it. Better yet, start by making a copy of it. It's already a working application—you're converting it from RESTful API practices to a GraphQL API.
 
 Back-End Specifications
-You’ll need to complete the following tasks in each of these back-end files:
+
+I needed to complete the following tasks in each of these back-end files:
 
 auth.js: Update the auth middleware function to work with the GraphQL API.
 
 server.js: Implement the Apollo Server and apply it to the Express server as middleware.
 
-<<<<<<< HEAD
-
 IMPORTANT
-Apollo Server recently migrated to Apollo Server 3. This major-version release impacts how Apollo Server interacts in an Express environment. To implement Apollo Server 2 as demonstrated in the activities, you MUST use the following script npm install apollo-server-express@2.15.0 to install Apollo Server 2. Alternately, to migrate to the latest version of Apollo Server, please refer to the Apollo Server Docs on Migrating to Apollo Server 3 (Links to an external site.) and Apollo Server Docs on Implementing Apollo Server Express with v3 (Links to an external site.). Note that if you are using Apollo Server 3 you are required use await server.start() before calling server.applyMiddleware.
+I used the following script npm install apollo-server-express@2.15.0 to install Apollo Server 2. Alternately, to migrate to the latest version of Apollo Server, please refer to the Apollo Server Docs on Migrating to Apollo Server 3. and Apollo Server Docs on Implementing Apollo Server Express with v3. Note that if you are using Apollo Server 3 you are required use await server.start() before calling server.applyMiddleware.
 
 =======
 
-a02f1afe (updates code snippet, mentions of graphql playground, and callouts)
 
-Schemas directory:
-index.js: Export your typeDefs and resolvers.
-
-resolvers.js: Define the query and mutation functionality to work with the Mongoose models.
-
-HINT
-typeDefs.js: Define the necessary Query and Mutation types:
-
-Query type:
-
-me: Which returns a User type.
-Mutation type:
 
 login: Accepts an email and password as parameters; returns an Auth type.
 
