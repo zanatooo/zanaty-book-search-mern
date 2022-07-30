@@ -51,11 +51,11 @@ THEN I am logged out of the site and presented with a menu with the options Sear
 Mock-Up
 <img width="585" alt="Screen Shot 2022-07-30 at 8 24 23 AM" src="https://user-images.githubusercontent.com/67457318/181937449-ce4fd8fd-8a42-4b50-a615-2b57d615a9b4.png">
 
-<img width="1778" alt="Screen Shot 2022-07-30 at 8 20 57 AM" src="https://user-images.githubusercontent.com/67457318/181937410-57bdaf9e-d7a7-4173-ac10-a93320b7aa1e.png">
+<img width="1792" alt="Screen Shot 2022-07-30 at 8 16 39 AM" src="https://user-images.githubusercontent.com/67457318/181937437-156c9e6b-15b0-4854-beb4-6aea1411de52.png">
 
 <img width="1750" alt="Screen Shot 2022-07-30 at 8 22 15 AM" src="https://user-images.githubusercontent.com/67457318/181937419-bd7ad027-4476-4acc-97df-9e95dc447be0.png">
 
-<img width="1792" alt="Screen Shot 2022-07-30 at 8 16 39 AM" src="https://user-images.githubusercontent.com/67457318/181937437-156c9e6b-15b0-4854-beb4-6aea1411de52.png">
+
 <img width="913" alt="Screen Shot 2022-07-30 at 8 17 28 AM" src="https://user-images.githubusercontent.com/67457318/181937445-faf69844-3ceb-41e3-bff9-356ac6c1ac08.png">
 
 <img width="1181" alt="Screen Shot 2022-07-30 at 8 23 12 AM" src="https://user-images.githubusercontent.com/67457318/181937620-262389e2-7b6b-49e4-a7bb-5b7d58922401.png">
