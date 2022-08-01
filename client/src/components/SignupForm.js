@@ -26,6 +26,7 @@ const SignupForm = () => {
       event.preventDefault();
       event.stopPropagation();
     }
+
     try {
       const response = await createUser(userFormData);
 

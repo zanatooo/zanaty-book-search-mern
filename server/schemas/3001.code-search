@@ -1,9 +1,0 @@
-# Query: 3001
-# ContextLines: 1
-
-1 result - 1 file
-
-client/package.json:
-  4    "private": true,
-  5:   "proxy": "http://localhost:3000",
-  6    "dependencies": {
