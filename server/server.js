@@ -8,7 +8,7 @@ const { authMiddleware } = require('./utils/auth');
 require("dotenv").config()
 
 const app = express();
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3000;
 const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost:3000/bookSearch";
 const server = new ApolloServer({
   typeDefs,
